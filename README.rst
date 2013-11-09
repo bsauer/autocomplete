@@ -7,7 +7,8 @@ Some websites prevent this behavior by setting the autocomplete attribute to "of
 
 Here is an example of a form that prevents autofill::
 
-    <form name="exampleForm" method="post" action="DoSomething" onsubmit="javascript:return WebForm_OnSubmit();" id="eampleForm">
+    <form name="exampleForm" method="post" action="DoSomething" 
+      onsubmit="javascript:return WebForm_OnSubmit();" id="eampleForm">
         <span id="passwordLabel">Password:</span>
         <br \>
         <input name="passwordInput" type="password" id="passwordInput" autocomplete="off">
